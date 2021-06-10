@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>300 Bài Code Thiếu Nhi</title>
+</head>
+
+<body>
+    <form class="content" action="#">
+        <h1>300 Bài Code Thiếu Nhi</h1>
+        <div class="subTitle">
+            <h2>
+                Question <span class="current_question"></span> of
+                <span class="total_question"></span>:
+            </h2>
+            <div class="time">15:40</div>
+        </div>
+        <div class="question_box">
+            <h4></h4>
+            <!-- render answers here -->
+            <div class="answer_list"></div>
+        </div>
+        <div class="buttons">
+            <button id="previousBtn">Previous question</button>
+            <button id="nextBtn">Next question</button>
+            <button id="submitBtn" class="hide">Submit</button>
+        </div>
+    </form>
+    <div class="result hide">
+        <h2>Your Result</h2>
+        <p>You got 3 of 5 question</p>
+        <a href="index.html">Retry Again</a>
+    </div>
+    <script src="question.js"></script>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
